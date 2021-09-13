@@ -5,10 +5,11 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("What is your name?");
-        Scanner input = new Scanner(System.in);
-        String name = input.nextLine();
-        System.out.println("Hello, " + name + ", nice to meet you!");
-    }
+  public static void main(String[] args) {
+    System.out.println("What is your name?");
+    Scanner input = new Scanner(System.in);
+    String name = input.nextLine();
+    String concat = "Hello " + name + ", nice to meet you!";
+    System.out.println(concat);
+  }
 }
